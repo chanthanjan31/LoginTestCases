@@ -81,19 +81,7 @@ public class LoginTestCaes {
 		else
 		{			System.out.println("Test case 4 is failed");		}
 		
-		/*driver.findElement(By.cssSelector("div#link_appsmenu>div>ul>li:nth-of-type(3)>a")).click();
-		driver.findElementByXPath("(//a[@class='dropdown-toggle ng-binding'])[3]").click();
-		driver.findElementByXPath("(//span[text()='Contacts'])[2]").click();
-		driver.findElementByXPath("//a[@class='btn btn-primary ']").click();
-		Thread.sleep(1000);
-		WebElement element1 = driver.findElementByXPath("(//span[@class='select2-chosen'])[3]");
-		 Select select1=new Select(element1);
-	        
-	        select1.selectByValue("Mr.");
-	    driver.findElementByXPath("//div[@class='panel-body']").sendKeys();
-	    driver.findElementById("contact_lname_attr").sendKeys();
-	    Thread.sleep(1000);
-	    driver.findElementByXPath("//button[text()='Create']").click();*/
+		
 	}
 
 }
